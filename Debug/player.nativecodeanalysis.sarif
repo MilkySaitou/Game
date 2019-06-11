@@ -1,0 +1,645 @@
+{
+  "version": "2.0.0",
+  "$schema": "http://json.schemastore.org/sarif-2.0.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "26495",
+          "message": {
+            "text": "Variable 'Player::ITEM' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 9,
+                  "endLine": 4,
+                  "endColumn": 9
+                }
+              },
+              "fullyQualifiedLogicalName": "public: __thiscall Player::Player(void)"
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Player::ITEM"
+          }
+        },
+        {
+          "ruleId": "26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 9,
+                  "endLine": 4,
+                  "endColumn": 9
+                }
+              },
+              "fullyQualifiedLogicalName": "public: __thiscall Player::Player(void)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26440",
+          "message": {
+            "text": "Function 'Player::getClearNum' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 13,
+                  "endLine": 10,
+                  "endColumn": 13
+                }
+              },
+              "fullyQualifiedLogicalName": "public: int __thiscall Player::getClearNum(void)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26440",
+          "message": {
+            "text": "Function 'Player::getPlayableNum' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 13,
+                  "endLine": 14,
+                  "endColumn": 13
+                }
+              },
+              "fullyQualifiedLogicalName": "public: int __thiscall Player::getPlayableNum(void)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26440",
+          "message": {
+            "text": "Function 'Player::item_Init' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 14,
+                  "endLine": 18,
+                  "endColumn": 14
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::item_Init(void)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26485",
+          "message": {
+            "text": "Expression 'this->ITEM': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::item_Init(void)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 2,
+                  "endLine": 26,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 2,
+                  "endLine": 28,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 2,
+                  "endLine": 29,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 2,
+                  "endLine": 30,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2,
+                  "endLine": 32,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 2,
+                  "endLine": 26,
+                  "endColumn": 121
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2,
+                  "endLine": 27,
+                  "endColumn": 34
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 2,
+                  "endLine": 28,
+                  "endColumn": 33
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 2,
+                  "endLine": 29,
+                  "endColumn": 37
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 2,
+                  "endLine": 30,
+                  "endColumn": 43
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 43
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2,
+                  "endLine": 32,
+                  "endColumn": 43
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 32
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::character_Init(int,int,int,int,int,int,int,int,enum ATTACKTYPE,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,int,int,int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 9,
+                  "endLine": 37,
+                  "endColumn": 27
+                }
+              },
+              "fullyQualifiedLogicalName": "public: class character __thiscall Player::ret_player_character(int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 10,
+                  "endLine": 41,
+                  "endColumn": 28
+                }
+              },
+              "fullyQualifiedLogicalName": "public: class character * __thiscall Player::get_player_character(int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26440",
+          "message": {
+            "text": "Function 'Player::get_player_character' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 20,
+                  "endLine": 39,
+                  "endColumn": 20
+                }
+              },
+              "fullyQualifiedLogicalName": "public: class character * __thiscall Player::get_player_character(int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 2,
+                  "endLine": 41,
+                  "endColumn": 28
+                }
+              },
+              "fullyQualifiedLogicalName": "public: class character * __thiscall Player::get_player_character(int)"
+            }
+          ]
+        },
+        {
+          "ruleId": "26440",
+          "message": {
+            "text": "Function 'Player::PlayableCharacterNum' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///C:/Users/健太/source/repos/Summon2D/Summon2D/player.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 14,
+                  "endLine": 43,
+                  "endColumn": 14
+                }
+              },
+              "fullyQualifiedLogicalName": "public: void __thiscall Player::PlayableCharacterNum(int)"
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "name": "PREfast",
+        "fullName": "PREfast Code Analysis",
+        "version": "14.21.27702.2",
+        "fileVersion": "14.00.27702.02"
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.21.27702\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00102070 -il C:\\Users\\健太\\AppData\\Local\\Temp\\_CL_9b48bd19ast -typedil -f player.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -pc \\:/ -D_MSC_VER=1921 -D_MSC_FULL_VER=192127702 -D_MSC_BUILD=2 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\Users\\健太\\Documents\\DxLib_VC\\プロジェクトに追加すべきファイル_VC用 -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_WINDOWS -D_MBCS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -clrNoPureCRT -D_DEBUG -D_MT -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -FoDebug\\player.obj -FdDebug\\vc142.pdb -Gd -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.21.27702\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\AllRules.ruleset -analyze:projectdirectory C:\\Users\\健太\\source\\repos\\Summon2D\\Summon2D -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.21.27702\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.21.27702\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um"
+        }
+      ],
+      "files": {
+        "file:///c:/users/健太/source/repos/summon2d/summon2d/player.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/健太/source/repos/summon2d/summon2d/player.h": {
+          "roles": [
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/健太/source/repos/summon2d/summon2d/character.h": {
+          "roles": [
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/健太/source/repos/summon2d/summon2d/item.h": {
+          "roles": [
+            "resultFile"
+          ]
+        }
+      },
+      "logicalLocations": {},
+      "resources": {
+        "rules": {}
+      }
+    }
+  ]
+}

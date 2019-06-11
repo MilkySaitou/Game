@@ -1,0 +1,10 @@
+SE\\BATTLESOUND\\damage.mp3
+SE\\BATTLESOUND\\enter.mp3
+SE\\BATTLESOUND\\damage.mp3
+SE\\BATTLESOUND\\cancel.mp3
+SE\\BATTLESOUND\\menu.wav
+SE\\BATTLESOUND\\cursor.wav
+SE\\BATTLESOUND\\decision.mp3
+SE\\BATTLESOUND\\blip.mp3
+SE\\BATTLESOUND\\enter2.wav
+SE\\BATTLESOUND\\cursor2.mp3

@@ -1,0 +1,4 @@
+DATA\\1\\map1.txt
+DATA\\1\\enemy.txt
+DATA\\1\\mapchip.txt
+BGM\\1\\Battle.wav

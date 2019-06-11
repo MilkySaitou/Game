@@ -1,0 +1,8 @@
+IMG\\1\\MAPCHIP\\mapchip1.png
+IMG\\1\\MAPCHIP\\mapchip2.png
+IMG\\1\\MAPCHIP\\mapchip3.png
+IMG\\1\\MAPCHIP\\mapchip4.png
+IMG\\1\\MAPCHIP\\mapchip5.png
+IMG\\1\\MAPCHIP\\mapchip6.png
+IMG\\1\\MAPCHIP\\mapchip7.png
+IMG\\1\\MAPCHIP\\mapchip8.png

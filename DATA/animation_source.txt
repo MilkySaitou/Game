@@ -1,0 +1,2 @@
+6 65 75 ANIMATION\\damage_animation.png
+4 20 80 ANIMATION\\carsol_sword.png
